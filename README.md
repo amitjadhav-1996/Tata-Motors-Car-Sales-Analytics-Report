@@ -3,12 +3,12 @@ Tata Motors Car Sales Analytics Report
 1) PROJECT OBJECTIVE:
             The primary objective of this project is to design and develop an end-to-end Sales Analytics Dashboard for Tata Motors using a structured Star Schema. This report provides actionable business intelligence across sales performance, regional trends, EV adoption, dealer efficiency, customer behavior, and financial patterns — enabling data-driven decision making for sales managers, regional heads, and business executives.
 
-2) Data Cleaning & Transformation Summary
+2) Data Cleaning & Transformation Summary:
 Tool Used: Power Query — Power BI Desktop
 
 Issues Found & Fixed:
  1. Removed Duplicates using primary key columns.
- 2. Removed columns which i thought to be not necessary for analysis purpose.
+ 2. Removed columns which are not necessary for analysis purpose.
  3. Trimmed text columns.
  4. Captitalized each text column for tranformation purpose.
  5. Data type of columns changed wherever necessary.
@@ -32,26 +32,18 @@ Issues Found & Fixed:
 
    2. EV Insights:
             EV sales were highest in 2020 then kept dropping sharply till 2024.
-            Curvv EV Nexon Ev the best selling electric vehicle across all years.
+            Curvv EV Nexon Ev is the best selling electric vehicle across all years.
             South India leads EV adoption with Karnataka, Andhra Pradesh and Tamil Nadu in top 3 states.
       
   3. Regional Insights:
-            Kerala is the top revenue state contributing ~18% of total sales
-            West region leads overall with Mumbai, Pune, and Ahmedabad driving volume
-            East region (Bihar, West Bengal) is significantly underserved with only 8% revenue share
-            North India shows highest cancellation rate at 16% vs national average of 14%
+            Kerala is the top revenue state contributing ~18% of total sales.
+            North has highest gross sales and was 146.09 % highest than East which has lowest sales.
+            Gross sales and profit are positively correlated each other.
 
   4. Customer Insights:
-            26-35 age group is the largest buyer segment at 38% of all sales
-            10L-20L income band customers are most likely to choose finance over cash
-            Customers who took test drives converted 2.1x better than those who didn't
-            Gold loyalty tier customers have lowest cancellation rate at only 6%
-
-  5.Dealer Insights:
-            Top 10 dealers contribute 42% of total revenue
-            Platinum tier dealers have 4.2 days average delivery vs 8.7 days for Silver tier
-            156 out of 250 dealers are EV certified but account for 89% of EV revenue
-            Dealers established before 2012 show 3x better target achievement rates
+            Sales are distributed nearly same across all age groups.
+            10L-20L income band customers are most likely to choose finance over cash.
+            loyalty tier customers have lowest cancellation rate compared with without loyalty  tier.
 
 4) BUSINESS RECOMMENDATIONS:
 1. EV Expansion Strategy
@@ -76,22 +68,21 @@ Issues Found & Fixed:
             Send automated delivery updates to keep customer engaged post booking
 
 6. Dealer Performance Strategy
-            Upgrade Silver dealers to Gold with training and incentive programs
-            Share best practices of top 10 dealers with underperformers
-            Introduce monthly dealer scorecards tracking revenue, rating, and delivery days
-            Penalize dealers with delivery > 7 days and reward those under 3 days
+            Upgrade Silver dealers to Gold with training and incentive programs.
+            Share best practices of top 10 dealers with underperformers.
+            Introduce monthly dealer scorecards tracking revenue, rating, and delivery days.
+            Penalize dealers with delivery > 7 days and reward those under 3 days.
 
 7. Finance & Pricing Strategy
             Introduce 84-month tenure option for premium models to reduce EMI burden
-            Expand Tata Motors Finance subvented schemes during slow Q1 months
+            Expand Tata Motors Finance subvented schemes during slow Q1 months.
             Offer zero down payment schemes for loyal Gold tier customers
-            Launch corporate lease programs targeting large enterprises
+            Launch corporate lease programs targeting large enterprises.
 
 8. Data & Operations Strategy
             Fix dealer DMS system to prevent duplicate entries and missing invoices.
             Make invoice generation mandatory at point of booking.
-            Add system validation to reject negative discount entries
-            Implement real-time Power BI refresh for daily sales monitoring
+            Add system validation to reject negative discount entries.
 
 5) Conclusion:
                This project successfully demonstrates a complete end-to-end Business Intelligence solution built on a Star Schema for Tata Motors. Starting from raw messy data with multiple quality issues, the data was cleaned and transformed using Power Query, modeled into a structured star schema with one fact table and six dimension tables, and analyzed using DAX measures to produce meaningful business insights.
