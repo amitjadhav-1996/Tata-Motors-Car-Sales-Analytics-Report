@@ -23,20 +23,18 @@ Issues Found & Fixed:
  11.  Null values replaced according to data type of column.
  12. Perfomed splitting and Merging columns wherever required.
 
-KEY INSIGHTS DISCOVERED
-💰 Revenue Insights
+3) KEY INSIGHTS DISCOVERED:
+   1. Revenue Insights:
+            Total revenue across FY2019-25 crossed ₹700+ Crores.
+            Curvv EV is the highest revenue generating model contributing ~15% of total sales.
+            Q4 (Jan-Mar) Quarter generates more than other quarters.
+            2020 recorded highest ever annual revenue.
 
-Total revenue across FY2019-25 crossed ₹850+ Crores
-Nexon is the highest revenue generating model contributing ~28% of total sales
-Q3 (Oct-Dec) festive season consistently drives 35% higher sales than other quarters
-FY2023-24 recorded highest ever annual revenue with 22% YOY growth
-
-⚡ EV Insights
-
-EV sales share grew from 8% in FY2020 to 31% in FY2025
-Nexon EV is the best selling electric vehicle across all years
-South India leads EV adoption with Karnataka and Tamil Nadu in top 3 states
-EV certified dealers generate 2.4x more revenue than non-certified dealers
+   2. EV Insights:
+            EV sales were highest in 2020 then kept dropping sharply till 2024.
+            Nexon EV is the best selling electric vehicle across all years
+            South India leads EV adoption with Karnataka and Tamil Nadu in top 3 states
+            EV certified dealers generate 2.4x more revenue than non-certified dealers
 
 🗺️ Regional Insights
 
