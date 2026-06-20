@@ -32,92 +32,66 @@ Issues Found & Fixed:
 
    2. EV Insights:
             EV sales were highest in 2020 then kept dropping sharply till 2024.
-            Nexon EV is the best selling electric vehicle across all years
-            South India leads EV adoption with Karnataka and Tamil Nadu in top 3 states
-            EV certified dealers generate 2.4x more revenue than non-certified dealers
+            Curvv EV Nexon Ev the best selling electric vehicle across all years.
+            South India leads EV adoption with Karnataka, Andhra Pradesh and Tamil Nadu in top 3 states.
+      
+  3. Regional Insights:
+            Kerala is the top revenue state contributing ~18% of total sales
+            West region leads overall with Mumbai, Pune, and Ahmedabad driving volume
+            East region (Bihar, West Bengal) is significantly underserved with only 8% revenue share
+            North India shows highest cancellation rate at 16% vs national average of 14%
 
-🗺️ Regional Insights
+  4. Customer Insights:
+            26-35 age group is the largest buyer segment at 38% of all sales
+            10L-20L income band customers are most likely to choose finance over cash
+            Customers who took test drives converted 2.1x better than those who didn't
+            Gold loyalty tier customers have lowest cancellation rate at only 6%
 
-Maharashtra is the top revenue state contributing ~18% of total sales
-West region leads overall with Mumbai, Pune, and Ahmedabad driving volume
-East region (Bihar, West Bengal) is significantly underserved with only 8% revenue share
-North India shows highest cancellation rate at 16% vs national average of 14%
+  5.Dealer Insights:
+            Top 10 dealers contribute 42% of total revenue
+            Platinum tier dealers have 4.2 days average delivery vs 8.7 days for Silver tier
+            156 out of 250 dealers are EV certified but account for 89% of EV revenue
+            Dealers established before 2012 show 3x better target achievement rates
 
-👥 Customer Insights
-
-26-35 age group is the largest buyer segment at 38% of all sales
-10L-20L income band customers are most likely to choose finance over cash
-Customers who took test drives converted 2.1x better than those who didn't
-Gold loyalty tier customers have lowest cancellation rate at only 6%
-
-🏪 Dealer Insights
-
-Top 10 dealers contribute 42% of total revenue
-Platinum tier dealers have 4.2 days average delivery vs 8.7 days for Silver tier
-156 out of 250 dealers are EV certified but account for 89% of EV revenue
-Dealers established before 2012 show 3x better target achievement rates
-
-💳 Finance Insights
-
-68% of customers prefer finance over cash purchase
-Tata Motors Finance is most preferred with 31% market share among financed deals
-48-month tenure is most popular loan period
-Subvented scheme deals show 40% lower cancellation rate
-
-📦 Operational Insights
-
-Average delivery time is 5.2 days nationally
-Customers receiving delivery within 3 days give 4.6 avg rating vs 3.1 for 10+ days
-Digital channel bookings have highest cancellation rate at 18%
-Showroom walk-ins convert with lowest cancellation at 9%
-
-
-💡 BUSINESS RECOMMENDATIONS
+4) BUSINESS RECOMMENDATIONS:
 1. EV Expansion Strategy
-
-Fast track EV dealer certification in East and North regions
-Launch EV awareness campaigns in Tier 2 cities like Lucknow, Jaipur, Nagpur
-Partner with state governments for EV subsidy awareness programs
-Build charging infrastructure maps in Power BI to identify coverage gaps
+            Fast track EV dealer certification in East and North regions
+            Launch EV awareness campaigns in cities like Delhi, West Bengal, Telangana.
+            Partner with state governments for EV subsidy awareness programs.
 
 2. Regional Growth Strategy
-
-Open 15-20 new dealerships in underserved East region states
-Launch Bihar and West Bengal specific models with lower price points
-Create regional sales targets aligned with population and income data
-Appoint regional sales champions to drive accountability
+            Open 15-20 new dealerships in underserved East region states.
+            Launch Bihar and West Bengal specific models with lower price points.
+            Create regional sales targets aligned with population and income data.
 
 3. Customer Retention Strategy
-
-Launch Tata Motors Loyalty App with points for service visits and referrals
-Convert Bronze tier customers to Silver with targeted exchange offers
-Send personalized upgrade offers to customers who bought entry models 3+ years ago
-Introduce corporate fleet programs to target IT companies in Bengaluru and Hyderabad
+            Launch Tata Motors Loyalty App with points for service visits and referrals.
+            Convert Bronze tier customers to Silver with targeted exchange offers.
+            Send personalized upgrade offers to customers who bought entry models 3+ years ago.
 
 4. Cancellation Reduction Strategy
+            Implement mandatory test drive policy before booking confirmation. From analysis, i found that most
+            of the orders were cancelled where test drive was not taken.
+            Introduce small booking token amount to reduce casual cancellations.
+            Send automated delivery updates to keep customer engaged post booking
 
-Implement mandatory test drive policy before booking confirmation
-Introduce small booking token amount to reduce casual cancellations
-Send automated delivery updates to keep customer engaged post booking
-Train Digital channel sales team on better customer qualification
+6. Dealer Performance Strategy
+            Upgrade Silver dealers to Gold with training and incentive programs
+            Share best practices of top 10 dealers with underperformers
+            Introduce monthly dealer scorecards tracking revenue, rating, and delivery days
+            Penalize dealers with delivery > 7 days and reward those under 3 days
 
-5. Dealer Performance Strategy
+7. Finance & Pricing Strategy
+            Introduce 84-month tenure option for premium models to reduce EMI burden
+            Expand Tata Motors Finance subvented schemes during slow Q1 months
+            Offer zero down payment schemes for loyal Gold tier customers
+            Launch corporate lease programs targeting large enterprises
 
-Upgrade Silver dealers to Gold with training and incentive programs
-Share best practices of top 10 dealers with underperformers
-Introduce monthly dealer scorecards tracking revenue, rating, and delivery days
-Penalize dealers with delivery > 7 days and reward those under 3 days
+8. Data & Operations Strategy
+            Fix dealer DMS system to prevent duplicate entries and missing invoices.
+            Make invoice generation mandatory at point of booking.
+            Add system validation to reject negative discount entries
+            Implement real-time Power BI refresh for daily sales monitoring
 
-6. Finance & Pricing Strategy
-
-Introduce 84-month tenure option for premium models to reduce EMI burden
-Expand Tata Motors Finance subvented schemes during slow Q1 months
-Offer zero down payment schemes for loyal Gold tier customers
-Launch corporate lease programs targeting large enterprises
-
-7. Data & Operations Strategy
-
-Fix dealer DMS system to prevent duplicate entries and missing invoices
-Make invoice generation mandatory at point of booking
-Add system validation to reject negative discount entries
-Implement real-time Power BI refresh for daily sales monitoring
+5) Conclusion:
+               This project successfully demonstrates a complete end-to-end Business Intelligence solution built on a Star Schema for Tata Motors. Starting from raw messy data with multiple quality issues, the data was cleaned and transformed using Power Query, modeled into a structured star schema with one fact table and six dimension tables, and analyzed using DAX measures to produce meaningful business insights.
