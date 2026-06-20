@@ -23,7 +23,10 @@ Issues Found & Fixed:
  11.  Null values replaced according to data type of column.
  12. Perfomed splitting and Merging columns wherever required.
 
-3) KEY INSIGHTS DISCOVERED:
+3) Dashboard Creation:
+               Developed an interactive Tata Motors Sales Dashboard in Power BI to analyze vehicle sales, revenue, profitability, dealer performance, customer behavior, and order cancellations. Performed data cleaning and transformation using Power Query, designed a star schema data model, and created DAX measures and KPIs. The dashboard includes KPI Cards, Line Charts for sales trends, Bar Charts for model and dealer performance, Map Visuals for regional analysis, Donut Charts for payment mode distribution, and Decomposition Tree and Key Influencers visuals for root cause analysis. The solution enables management to monitor business performance and make data-driven decisions.
+
+4) KEY INSIGHTS DISCOVERED:
    1. Revenue Insights:
             Total revenue across FY2019-25 crossed ₹700+ Crores.
             Curvv EV is the highest revenue generating model contributing ~15% of total sales.
@@ -45,7 +48,7 @@ Issues Found & Fixed:
             10L-20L income band customers are most likely to choose finance over cash.
             loyalty tier customers have lowest cancellation rate compared with without loyalty  tier.
 
-4) BUSINESS RECOMMENDATIONS:
+5) BUSINESS RECOMMENDATIONS:
 1. EV Expansion Strategy
             Fast track EV dealer certification in East and North regions
             Launch EV awareness campaigns in cities like Delhi, West Bengal, Telangana.
@@ -84,5 +87,5 @@ Issues Found & Fixed:
             Make invoice generation mandatory at point of booking.
             Add system validation to reject negative discount entries.
 
-5) Conclusion:
+6) Conclusion:
                This project successfully demonstrates a complete end-to-end Business Intelligence solution built on a Star Schema for Tata Motors. Starting from raw messy data with multiple quality issues, the data was cleaned and transformed using Power Query, modeled into a structured star schema with one fact table and six dimension tables, and analyzed using DAX measures to produce meaningful business insights.
