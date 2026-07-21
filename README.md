@@ -1,5 +1,8 @@
 Tata Motors Car Sales Analytics Report
 
+Dataset:
+       Created a purposefully messy synthetic Tata car sales dataset with assistance from Claude to simulate real-world data quality issues. The dataset contained inconsistencies such as missing values, duplicate records, inconsistent text formats, incorrect data types, and other data quality issues.
+
 1) PROJECT OBJECTIVE:
             The primary objective of this project is to design and develop an end-to-end Sales Analytics Dashboard for Tata Motors using a structured Star Schema. This report provides actionable business intelligence across sales performance, regional trends, EV adoption, dealer efficiency, customer behavior, and financial patterns — enabling data-driven decision making for sales managers, regional heads, and business executives.
 
